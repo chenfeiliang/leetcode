@@ -56,7 +56,7 @@ public class P1791_FindCenterOfStarGraph {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public Map<Integer, Integer> emap = new HashMap<>();
+        public Map<Integer, Integer> emap = new HashMap<Integer, Integer>();
 
         public int findCenter(int[][] edges) {
 
